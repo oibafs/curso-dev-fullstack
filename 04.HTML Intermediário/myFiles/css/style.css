@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1,
+p {
+  margin-bottom: 10px;
+}
+
+/* .header img {
+  width: 100%;
+} */
+
+.header {
+  background-image: url("../img/Facebook-Cover-5-944219828");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+  font-size: 40px;
+  box-shadow: 0 0 10px black;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.navbar {
+  width: 30%;
+  padding: 30px;
+}
+
+.navbar ul li {
+  list-style: none;
+  background: blue;
+  text-align: center;
+  margin-bottom: 4px;
+  padding: 10px 0;
+  border-radius: 10px 0 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 70%;
+  background: #d8d8d8;
+  padding: 30px;
+  border-radius: 20px 0 0;
+  margin-top: 30px;
+}
+
+.footer {
+  background: gray;
+  text-align: center;
+  padding: 20px 0;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: auto;
+}
